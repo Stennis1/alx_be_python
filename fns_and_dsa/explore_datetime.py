@@ -1,5 +1,5 @@
 # Import datetime module
-import datetime
+from datetime import datetime
 
 # PART ONE (1)
 def display_current_datetime():
