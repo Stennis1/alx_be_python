@@ -23,7 +23,7 @@ def main():
         
         # Logic for adding, reving, viewing, and exiting the shopping list
         if choice == 1:
-            item = input("Enter item to add: ").strip()
+            item = input("Enter the item to add: ").strip()
             if item:
                 shopping_list.append(item)
                 print(f"{item} has been added to the list.")
