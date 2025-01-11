@@ -23,7 +23,7 @@ def main():
         
         # Logic for adding, reving, viewing, and exiting the shopping list
         if choice == 1:
-            item = input("Enter name of item: ").strip()
+            item = input("Enter item to add: ").strip()
             if item:
                 shopping_list.append(item)
                 print(f"{item} has been added to the list.")
@@ -31,7 +31,7 @@ def main():
                 print("Item name cannot be empty. Please add an item.")
 
         elif choice == 2:
-            item = input("Enter name of item: ").strip()
+            item = input("Enter item to remove: ").strip()
             if item not in shopping_list:
                 print("Item not found in the shopping list.")
             else:                
