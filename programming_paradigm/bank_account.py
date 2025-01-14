@@ -29,7 +29,7 @@ class BankAccount:
         
         # display_balance()
     def display_balance(self):  
-        print(f"Funds deposited: ${self.account_deposit}") 
-        print(f"Funds withdrawn: ${self.withdrawn_amount}") 
-        print(f"Current Balance: ${self.account_balance}") 
+        # print(f"Funds deposited: ${self.account_deposit}") 
+        # print(f"Funds withdrawn: ${self.withdrawn_amount}") 
+        print(f"Current Balance: ${self.account_balance:.2f}") 
 
