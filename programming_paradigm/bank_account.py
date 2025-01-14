@@ -31,5 +31,5 @@ class BankAccount:
     def display_balance(self):  
         print(f"Funds deposited: ${self.account_deposit}") 
         print(f"Funds withdrawn: ${self.withdrawn_amount}") 
-        print(f"Account balance: ${self.account_balance}") 
+        print(f"Current Balance: ${self.account_balance}") 
 
