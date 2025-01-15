@@ -32,4 +32,3 @@ class BankAccount:
         # print(f"Funds deposited: ${self.account_deposit}") 
         # print(f"Funds withdrawn: ${self.withdrawn_amount}") 
         print(f"Current Balance: ${self.account_balance:.2f}") 
-
