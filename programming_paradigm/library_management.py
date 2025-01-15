@@ -25,9 +25,11 @@ if __name__ == "__main__":
     main()
 
 class Book:
-    def __init__(self):
-        pass
+    def __init__(self, title, author):
+            self.title = title
+            self.author = author
+            self._is_checked_out = 0
 
 class Library:
     def __init__(self):
-        pass
+        self._books = 0
